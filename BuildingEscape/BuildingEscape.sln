@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.25807.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{3BE82ADC-A36C-4D04-A1FC-11A93196AD20}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{B7A4AC25-0E1C-4BBD-A6AD-BDAA7A9D1132}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{57A02345-A8B2-4EAB-8A0B-4C16E4C546C7}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{6C7DFCBE-E4B9-467E-A63B-883ED745F28F}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UE4", "Intermediate\ProjectFiles\UE4.vcxproj", "{B33A200E-BB83-4285-960E-5FF9762C4EF9}"
 EndProject
@@ -72,8 +72,8 @@ Global
 		{8C9D5B4B-DCA1-4B72-9FE3-E8FAE89A8C97}.DebugGame|Win64.Build.0 = DebugGame_Game|x64
 		{8C9D5B4B-DCA1-4B72-9FE3-E8FAE89A8C97}.Development Editor|HTML5.ActiveCfg = HTML5_Development_Editor|Win32
 		{8C9D5B4B-DCA1-4B72-9FE3-E8FAE89A8C97}.Development Editor|Win32.ActiveCfg = Development_Editor|Win32
-		{8C9D5B4B-DCA1-4B72-9FE3-E8FAE89A8C97}.Development Editor|Win64.ActiveCfg = Development_Game|x64
-		{8C9D5B4B-DCA1-4B72-9FE3-E8FAE89A8C97}.Development Editor|Win64.Build.0 = Development_Game|x64
+		{8C9D5B4B-DCA1-4B72-9FE3-E8FAE89A8C97}.Development Editor|Win64.ActiveCfg = Development_Editor|x64
+		{8C9D5B4B-DCA1-4B72-9FE3-E8FAE89A8C97}.Development Editor|Win64.Build.0 = Development_Editor|x64
 		{8C9D5B4B-DCA1-4B72-9FE3-E8FAE89A8C97}.Development|HTML5.ActiveCfg = HTML5_Development_Game|Win32
 		{8C9D5B4B-DCA1-4B72-9FE3-E8FAE89A8C97}.Development|HTML5.Build.0 = HTML5_Development_Game|Win32
 		{8C9D5B4B-DCA1-4B72-9FE3-E8FAE89A8C97}.Development|Win32.ActiveCfg = Development_Game|Win32
@@ -91,10 +91,10 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{B33A200E-BB83-4285-960E-5FF9762C4EF9} = {3BE82ADC-A36C-4D04-A1FC-11A93196AD20}
-		{8C9D5B4B-DCA1-4B72-9FE3-E8FAE89A8C97} = {57A02345-A8B2-4EAB-8A0B-4C16E4C546C7}
+		{B33A200E-BB83-4285-960E-5FF9762C4EF9} = {B7A4AC25-0E1C-4BBD-A6AD-BDAA7A9D1132}
+		{8C9D5B4B-DCA1-4B72-9FE3-E8FAE89A8C97} = {6C7DFCBE-E4B9-467E-A63B-883ED745F28F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {C260FB0A-4540-4A90-A32D-3DF43B81BF52}
+		SolutionGuid = {8F1CDA22-C554-4B6A-94EC-3634C533018D}
 	EndGlobalSection
 EndGlobal
