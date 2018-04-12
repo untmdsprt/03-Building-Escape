@@ -4,6 +4,7 @@
 #include "Engine/World.h"
 #include "GameFramework/Actor.h"
 #include "GameFramework/PlayerController.h"
+#include "PhysicsEngine/PhysicsHandleComponent.h"
 #include "BuildingEscape.h"
 
 #define OUT
@@ -26,6 +27,14 @@ void UGrabber::BeginPlay()
 
 	UE_LOG(LogTemp, Warning, TEXT("Grabber reporting for duty!"));
 	
+	/// Look for attached Physics Handle
+	PhysicsHandle = GetOwner()->FindComponentByClass<UPhysicsHandleComponent>();
+	if (PhysicsHandle) {
+		// Physics handle is found
+	}
+	else {
+		UE_LOG(LogTemp, Error, TEXT("%s missing physics handle component"), *GetOwner()->GetName())
+	}
 }
 
 
